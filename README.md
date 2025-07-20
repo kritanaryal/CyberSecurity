@@ -1,34 +1,36 @@
-cybersecurity-portfolio/
-│
-├── network-recon/
-│   ├── README.md
-│   ├── nmap_scan.txt
-│   └── screenshots/
-│
-├── web-vuln-testing/
-│   ├── README.md
-│   ├── burp_sqli.png
-│   └── nikto_report.txt
-│
-├── packet-analysis/
-│   ├── README.md
-│   ├── wireshark_capture.pcap
-│   └── screenshots/
-│
-├── siem-log-analysis/
-│   ├── README.md
-│   ├── splunk_dashboard.png
-│   └── logs/
-│
-├── tryhackme/
-│   ├── README.md
-│   └── room‑1‑writeup.md
-│
-├── automation/
-│   ├── README.md
-│   ├── scripts/
-│   │   ├── fetch_nmap.py
-│   │   └── parse_logs.sh
-│   └── usage.md
-│
-└── README.md  ← overview & link grid to all modules
+# 🚀 Project Title
+
+**One-line description** (e.g. “Nmap Vulnerability Scan Report”)
+
+---
+
+## 📋 Overview
+- **Tool / Lab**: Nmap / Nikto / Wireshark / Burp Suite / TryHackMe - *Room Name*
+- **Target / Scope**: `<IP or domain or room>`
+- **Objective**: Exploit / analyze / scan etc.
+
+---
+
+## 🛠️ Tools Used
+- Nmap (v7.x)
+- Nikto (v2.x)
+- Wireshark
+- Burp Suite Community / PortSwigger
+- TryHackMe CTF room
+- (Any other)
+
+---
+
+## 🧰 Lab Setup
+- Virtualization: VirtualBox or VMware
+- Operating Systems: Kali Linux, Metasploitable2, target VM
+- Network Mode: NAT / Host‑only
+- Capture or VM files: `/captures` or `/vm`
+
+---
+
+## 🔎 Steps Taken
+
+1. **Recon / Scanning**  
+   ```bash
+   nmap -sC -sV TARGET_IP -oN nmap_full_scan.txt
