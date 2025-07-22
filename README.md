@@ -1,6 +1,6 @@
-# 🚀 Project Title
+# 🚀 Projects
 
-**One-line description** (e.g. “Nmap Vulnerability Scan Report”)
+
 
 ---
 
@@ -22,15 +22,14 @@
 ---
 
 ## 🧰 Lab Setup
-- Virtualization: VirtualBox or VMware
+- Virtualization: VirtualBox or VMware & Live Boot also
 - Operating Systems: Kali Linux, Metasploitable2, target VM
 - Network Mode: NAT / Host‑only
 - Capture or VM files: `/captures` or `/vm`
 
 ---
 
-## 🔎 Steps Taken
+## Nmap (v7.95)
 
-1. **Recon / Scanning**  
-   ```bash
-   nmap -sC -sV TARGET_IP -oN nmap_full_scan.txt
+## Nikto ()
+
