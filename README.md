@@ -30,6 +30,11 @@
 ---
 
 ## Nmap (v7.95)
-  [Visit Project](https://github.com/kritanaryal/nmapreport)
-## Nikto ()
+  [Visit Project](https://github.com/kritanaryal/nmapreport)  
+
+  
+## Nikto (2.5.0 (LW 2.5))
+   [Visit Project](https://github.com/kritanaryal/niktoreport)  
+
+   
 
